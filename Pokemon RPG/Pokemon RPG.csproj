@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Enums\GrowthRate.cs" />
     <Compile Include="Enums\Moves.cs" />
+    <Compile Include="Enums\PokeNature.cs" />
     <Compile Include="Enums\PowerItem.cs" />
     <Compile Include="Enums\Sex.cs" />
     <Compile Include="Enums\Vitamins.cs" />
