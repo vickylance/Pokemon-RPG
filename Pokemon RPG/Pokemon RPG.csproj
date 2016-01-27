@@ -43,8 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\GrowthRate.cs" />
+    <Compile Include="Enums\Moves.cs" />
+    <Compile Include="Enums\PowerItem.cs" />
+    <Compile Include="Enums\Sex.cs" />
+    <Compile Include="Enums\Vitamins.cs" />
+    <Compile Include="Enums\Wings.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="IPokemon.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ITrainer.cs" />
+    <Compile Include="Enums\Pokeball.cs" />
+    <Compile Include="Pokemon.cs" />
+    <Compile Include="Enums\PokeType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Enums\Trained.cs" />
+    <Compile Include="Trainer.cs" />
+    <Compile Include="Enums\Variant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

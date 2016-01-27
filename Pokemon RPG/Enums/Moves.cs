@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Pokemon_RPG
 {
-    class Program
+    public enum Moves
     {
-        static void Main(string[] args)
-        {
-            Pokemon pikachu = new Pokemon();
-            pikachu.Type2 = null;
-        }
+        Flamethrower,
+        FireSpin
     }
 }
